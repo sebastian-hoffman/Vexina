@@ -139,6 +139,9 @@ export const IVADetalle: React.FC = () => {
           </div>
         </div>
       )}
+
+      <div className="card mb-4">
+        <h3>Notas y Observaciones</h3>
         <div className="mt-3" style={{ padding: '1rem', background: 'var(--neutral-100)', borderRadius: '0.5rem', minHeight: '100px' }}>
           <p className="text-muted">{papel.notas || '(Sin notas)'}</p>
         </div>
